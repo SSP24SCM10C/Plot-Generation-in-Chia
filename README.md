@@ -1,5 +1,4 @@
 # A Comprehensive Study of Plot Generation in Chia Blockchain
-
 -------------------------------------------------------------
 
 ## Abstract
