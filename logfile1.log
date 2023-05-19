@@ -1,0 +1,61 @@
+Multi-threaded pipelined Chia k32 plotter - 94679d0
+(Sponsored by Flexpool.io - Check them out if you're looking for a secure and scalable Chia pool)
+
+Network Port: 8444 [chia]
+Final Directory: ../dstdir/
+Stage Directory: ../tmpdir/
+Number of Plots: 1
+Crafting plot 1 out of 1 (2023/04/25 23:12:27)
+Process ID: 50988
+Number of Threads: 4
+Number of Buckets P1:    2^8 (256)
+Number of Buckets P3+P4: 2^8 (256)
+Pool Puzzle Hash:  f10fdffd7e181155c354bdff5d212bdfda7700fb6a9df5d4a7a3cd16b80f57ff
+Farmer Public Key: b470dee4fe2bd33fa2756c76bcc47ee053d0f6d2826234a17ef96888ff80da45a3adfd3f9a43a880aab8cd3ea97962b3
+Working Directory:   ../tmpdir/
+Working Directory 2: ../tmpdir2/
+Plot Name: plot-k32-2023-04-25-23-12-0a4bd39cbb921d5cf5d0bcdd3067d652b99ffcf02590400b2fba1010b1d8e136
+[P1] Table 1 took 207.053 sec
+[P1] Table 2 took 523.939 sec, found 4295022343 matches
+[P1] Table 3 took 656.739 sec, found 4295075616 matches
+[P1] Table 4 took 820.774 sec, found 4295086335 matches
+[P1] Table 5 took 861.298 sec, found 4295118661 matches
+[P1] Table 6 took 741.658 sec, found 4295202578 matches
+[P1] Table 7 took 564.884 sec, found 4295267886 matches
+Phase 1 took 4376.53 sec
+[P2] max_table_size = 4295267886
+[P2] Table 7 scan took 94.8106 sec
+[P2] Table 7 rewrite took 251.223 sec, dropped 0 entries (0 %)
+[P2] Table 6 scan took 165.095 sec
+[P2] Table 6 rewrite took 278.173 sec, dropped 581380068 entries (13.5356 %)
+[P2] Table 5 scan took 133.07 sec
+[P2] Table 5 rewrite took 229.785 sec, dropped 762059474 entries (17.7425 %)
+[P2] Table 4 scan took 126.953 sec
+[P2] Table 4 rewrite took 219.737 sec, dropped 828921225 entries (19.2993 %)
+[P2] Table 3 scan took 132.448 sec
+[P2] Table 3 rewrite took 198.882 sec, dropped 855154840 entries (19.9101 %)
+[P2] Table 2 scan took 139.791 sec
+[P2] Table 2 rewrite took 230.481 sec, dropped 865624350 entries (20.1541 %)
+Phase 2 took 2222.18 sec
+Wrote plot header with 252 bytes
+[P3-1] Table 2 took 331.949 sec, wrote 3429397993 right entries
+[P3-2] Table 2 took 222.235 sec, wrote 3429397993 left entries, 3429397993 final
+[P3-1] Table 3 took 334.996 sec, wrote 3439920776 right entries
+[P3-2] Table 3 took 228.007 sec, wrote 3439920776 left entries, 3439920776 final
+[P3-1] Table 4 took 370.145 sec, wrote 3466165110 right entries
+[P3-2] Table 4 took 253.653 sec, wrote 3466165110 left entries, 3466165110 final
+[P3-1] Table 5 took 374.333 sec, wrote 3533059187 right entries
+[P3-2] Table 5 took 298.381 sec, wrote 3533059187 left entries, 3533059187 final
+[P3-1] Table 6 took 451.395 sec, wrote 3713822510 right entries
+[P3-2] Table 6 took 317.66 sec, wrote 3713822510 left entries, 3713822510 final
+[P3-1] Table 7 took 519.374 sec, wrote 4295267886 right entries
+[P3-2] Table 7 took 478.791 sec, wrote 4294967296 left entries, 4294967296 final
+Phase 3 took 4186.92 sec, wrote 21877332872 entries to final plot
+[P4] Starting to write C1 and C3 tables
+[P4] Finished writing C1 and C3 tables
+[P4] Writing C2 table
+[P4] Finished writing C2 table
+Phase 4 took 143.43 sec, final plot size is 108836251148 bytes
+Total plot creation time was 10929.2 sec (182.153 min)
+Started copy to ../dstdir/plot-k32-2023-04-25-23-12-0a4bd39cbb921d5cf5d0bcdd3067d652b99ffcf02590400b2fba1010b1d8e136.plot
+Renamed final plot to ../dstdir/plot-k32-2023-04-25-23-12-0a4bd39cbb921d5cf5d0bcdd3067d652b99ffcf02590400b2fba1010b1d8e136.plot

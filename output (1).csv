@@ -1,0 +1,1624 @@
+____________________________________________________________________
+			P o w e r T O P
+
+____________________________________________________________________
+ *  *  *   System Information   *  *  *
+
+PowerTOP Version;2.14 ran at Tue Apr 25 23:11:00 2023
+
+Kernel Version;Linux version 5.15.0-71-generic
+System Name;SupermicroX10DRG-Q0123456789
+CPU Information;32 Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+OS Information;Ubuntu 22.04.2 LTS
+
+Target: 1 units/s;System:  10.1 wakeup/s;CPU:  112.0% usage;GPU: 0 ops/s;GFX: 0 wakeups/s;VFS: 0 ops/s;
+
+____________________________________________________________________
+ *  *  *   Top 10 Power Consumers   *  *  *
+
+Usage;Events/s;Category;Description
+  109%; 0.03;kWork;wb_workfn
+  0.0%;  6.0;Timer;tick_sched_timer
+  0.9%; 0.23;kWork;ext4_end_io_rsv_work
+  0.2%; 0.03;Process;[PID 51041] Disk/read/0
+  0.2%; 0.00;Process;[PID 51039] Disk/sort/1
+  0.0%;  0.7;Interrupt;[4] block(softirq)
+  0.0%;  0.7;Process;[PID 15] [rcu_sched]
+  0.0%;  0.6;Interrupt;[3] net_rx(softirq)
+  0.1%; 0.00;Process;[PID 51038] Disk/sort/0
+  0.1%; 0.00;Process;[PID 51031] phase1/eval/2
+
+____________________________________________________________________
+ *  *  *   Processor Idle State Report   *  *  *
+
+Package;0
+C3 (pc3);  0.0%
+C6 (pc6); 14.5%
+;
+;
+;
+
+;Core 0
+C3 (cc3);  0.0%
+C6 (cc6); 63.5%
+;Core 1
+C3 (cc3);  0.0%
+C6 (cc6); 64.1%
+;Core 2
+C3 (cc3);  0.0%
+C6 (cc6); 56.6%
+;Core 3
+C3 (cc3);  0.0%
+C6 (cc6); 61.3%
+;Core 4
+C3 (cc3);  0.0%
+C6 (cc6); 64.5%
+;Core 5
+C3 (cc3);  0.0%
+C6 (cc6); 69.5%
+;Core 6
+C3 (cc3);  0.0%
+C6 (cc6); 63.1%
+;Core 7
+C3 (cc3);  0.0%
+C6 (cc6); 64.0%
+
+CPU;0;CPU;16
+C0 active; 11.3%; 17.9%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.5 ms;  0.1%;   0.5 ms
+C1E;  0.3%;   0.4 ms;  0.2%;   0.3 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 85.7%;   4.5 ms; 79.3%;  10.9 ms
+CPU;1;CPU;17
+C0 active; 15.9%; 13.5%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.3 ms;  0.1%;   0.4 ms
+C1E;  0.2%;   0.4 ms;  0.1%;   0.3 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 80.8%;   8.0 ms; 84.0%;  11.3 ms
+CPU;2;CPU;18
+C0 active; 15.1%; 14.3%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.6 ms;  0.1%;   0.3 ms
+C1E;  0.2%;   0.4 ms;  1.5%;   0.5 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 81.2%;   8.6 ms; 79.7%;   2.0 ms
+CPU;3;CPU;19
+C0 active; 17.1%; 14.5%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.4 ms;  0.1%;   0.3 ms
+C1E;  0.2%;   0.4 ms;  0.3%;   0.5 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 79.7%;   9.8 ms; 81.8%;   8.8 ms
+CPU;4;CPU;20
+C0 active; 15.5%; 12.7%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.5 ms;  0.1%;   0.3 ms
+C1E;  0.3%;   0.4 ms;  0.4%;   0.5 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 81.3%;  10.4 ms; 83.8%;   8.8 ms
+CPU;5;CPU;21
+C0 active;  9.0%; 14.0%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.5 ms;  0.1%;   0.3 ms
+C1E;  0.2%;   0.4 ms;  0.3%;   0.5 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 88.6%;  11.2 ms; 82.1%;   8.7 ms
+CPU;6;CPU;22
+C0 active; 17.9%; 12.4%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.4 ms;  0.1%;   0.3 ms
+C1E;  0.3%;   0.3 ms;  0.2%;   0.4 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 79.1%;   8.5 ms; 84.6%;  10.9 ms
+CPU;7;CPU;23
+C0 active; 15.3%; 12.6%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.4 ms;  0.0%;   0.3 ms
+C1E;  0.2%;   0.3 ms;  0.2%;   0.4 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 81.2%;   8.6 ms; 83.6%;   9.1 ms
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+
+Package;1
+C3 (pc3);  0.0%
+C6 (pc6); 14.5%
+;
+;
+;
+
+;Core 0
+C3 (cc3);  0.0%
+C6 (cc6); 68.9%
+;Core 1
+C3 (cc3);  0.0%
+C6 (cc6); 76.5%
+;Core 2
+C3 (cc3);  0.0%
+C6 (cc6); 77.7%
+;Core 3
+C3 (cc3);  0.0%
+C6 (cc6); 79.1%
+;Core 4
+C3 (cc3);  0.0%
+C6 (cc6); 78.9%
+;Core 5
+C3 (cc3);  0.0%
+C6 (cc6); 78.7%
+;Core 6
+C3 (cc3);  0.0%
+C6 (cc6); 78.9%
+;Core 7
+C3 (cc3);  0.0%
+C6 (cc6); 80.6%
+
+CPU;8;CPU;24
+C0 active; 20.6%;  8.9%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.4 ms;  0.1%;   0.6 ms
+C1E;  0.3%;   0.3 ms;  0.1%;   0.4 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 78.7%;  15.4 ms; 90.3%;  26.6 ms
+CPU;9;CPU;25
+C0 active; 11.9%;  8.1%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.4 ms;  0.1%;   0.6 ms
+C1E;  0.1%;   0.4 ms;  0.0%;   0.4 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 86.0%;  17.0 ms; 90.9%;  33.6 ms
+CPU;10;CPU;26
+C0 active; 12.8%;  5.9%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.3 ms;  0.1%;   0.5 ms
+C1E;  0.1%;   0.4 ms;  0.1%;   0.4 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 85.1%;  17.3 ms; 92.9%;  26.5 ms
+CPU;11;CPU;27
+C0 active; 13.3%;  4.9%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.3 ms;  0.1%;   0.5 ms
+C1E;  0.1%;   0.4 ms;  0.1%;   0.5 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 85.1%;  23.3 ms; 94.0%;  30.7 ms
+CPU;12;CPU;28
+C0 active; 11.8%;  6.7%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.5 ms;  0.1%;   0.6 ms
+C1E;  0.1%;   0.5 ms;  0.1%;   0.6 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 86.7%;  22.7 ms; 92.4%;  31.0 ms
+CPU;13;CPU;29
+C0 active; 10.8%;  7.4%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.3 ms;  0.1%;   0.5 ms
+C1E;  0.1%;   0.4 ms;  0.1%;   0.6 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 87.6%;  21.2 ms; 91.6%;  25.4 ms
+CPU;14;CPU;30
+C0 active; 12.0%;  6.7%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.2 ms;  0.1%;   0.5 ms
+C1E;  0.1%;   0.5 ms;  0.1%;   0.5 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 87.1%;  23.9 ms; 92.0%;  27.4 ms
+CPU;15;CPU;31
+C0 active; 11.2%;  6.0%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.4 ms;  0.1%;   0.6 ms
+C1E;  0.1%;   0.5 ms;  0.0%;   0.4 ms
+C3;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C6; 87.5%;  27.1 ms; 93.1%;  32.3 ms
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+
+____________________________________________________________________
+ *  *  *   Processor Frequency Report   *  *  *
+
+Package;0
+Idle;   7.0% 
+1200 MHz;  29.2% 
+3.00 GHz;   7.0% 
+2.00 GHz;   1.2% 
+2.21 GHz;   1.3% 
+1.91 GHz;   1.4% 
+2.10 GHz;   1.6% 
+2.31 GHz;   1.1% 
+1.60 GHz;  29.6% 
+1300 MHz;   1.8% 
+1.80 GHz;   1.1% 
+1500 MHz;   1.3% 
+1.71 GHz;   1.6% 
+2.40 GHz;   0.8% 
+2.50 GHz;   0.6% 
+2.60 GHz;   0.5% 
+2.71 GHz;   0.5% 
+2.81 GHz;   1.3% 
+2.90 GHz;   1.0% 
+1400 MHz;  10.0% 
+;
+;
+;
+
+;Core 0
+Idle;   7.4% 
+3.00 GHz;   6.7% 
+1200 MHz;  29.1% 
+2.00 GHz;   1.2% 
+2.31 GHz;   1.1% 
+1.91 GHz;   1.4% 
+2.21 GHz;   1.3% 
+1.80 GHz;   1.1% 
+1.71 GHz;   1.6% 
+2.60 GHz;   0.5% 
+2.50 GHz;   0.6% 
+2.40 GHz;   0.8% 
+2.10 GHz;   1.6% 
+1.60 GHz;  29.6% 
+2.71 GHz;   0.5% 
+2.81 GHz;   1.3% 
+2.90 GHz;   1.0% 
+1300 MHz;   1.8% 
+1400 MHz;  10.0% 
+1500 MHz;   1.3% 
+;Core 1
+Idle;  99.8% 
+1200 MHz;   0.0% 
+3.00 GHz;   0.2% 
+2.00 GHz;   0.0% 
+2.21 GHz;   0.0% 
+1.91 GHz;   0.0% 
+2.31 GHz;   0.0% 
+1.60 GHz;   0.0% 
+2.10 GHz;   0.0% 
+1.80 GHz;   0.0% 
+1.71 GHz;   0.0% 
+2.60 GHz;   0.0% 
+2.50 GHz;   0.0% 
+2.40 GHz;   0.0% 
+2.81 GHz;   0.0% 
+2.71 GHz;   0.0% 
+2.90 GHz;   0.0% 
+;Core 2
+Idle;   7.5% 
+1200 MHz;  29.1% 
+2.00 GHz;   1.2% 
+2.21 GHz;   1.3% 
+1.91 GHz;   1.4% 
+2.31 GHz;   1.1% 
+1.80 GHz;   1.1% 
+1.71 GHz;   1.6% 
+2.10 GHz;   1.6% 
+2.40 GHz;   0.8% 
+2.50 GHz;   0.6% 
+2.60 GHz;   0.5% 
+2.71 GHz;   0.5% 
+2.81 GHz;   1.3% 
+2.90 GHz;   0.9% 
+3.00 GHz;   6.6% 
+1300 MHz;   1.8% 
+1400 MHz;  10.0% 
+1500 MHz;   1.3% 
+1.60 GHz;  29.6% 
+;Core 3
+Idle;  99.8% 
+1200 MHz;   0.1% 
+3.00 GHz;   0.1% 
+2.00 GHz;   0.0% 
+2.10 GHz;   0.0% 
+2.21 GHz;   0.0% 
+1.91 GHz;   0.0% 
+2.31 GHz;   0.0% 
+1.80 GHz;   0.0% 
+1.71 GHz;   0.0% 
+2.81 GHz;   0.0% 
+2.90 GHz;   0.0% 
+;Core 4
+Idle;  12.3% 
+1200 MHz;  24.0% 
+2.00 GHz;   1.2% 
+1.91 GHz;   1.4% 
+2.10 GHz;   1.6% 
+2.21 GHz;   1.3% 
+2.31 GHz;   1.1% 
+1.60 GHz;  29.6% 
+1.80 GHz;   1.1% 
+1.71 GHz;   1.6% 
+2.50 GHz;   0.6% 
+2.60 GHz;   0.5% 
+2.40 GHz;   0.8% 
+2.71 GHz;   0.5% 
+2.81 GHz;   1.3% 
+2.90 GHz;   1.0% 
+3.00 GHz;   7.0% 
+1300 MHz;   1.8% 
+1400 MHz;  10.0% 
+1500 MHz;   1.3% 
+;Core 5
+Idle;  12.8% 
+1200 MHz;  23.7% 
+3.00 GHz;   6.7% 
+2.21 GHz;   1.3% 
+2.31 GHz;   1.1% 
+1.91 GHz;   1.4% 
+1.60 GHz;  29.6% 
+1300 MHz;   1.8% 
+1.80 GHz;   1.1% 
+2.00 GHz;   1.2% 
+1500 MHz;   1.3% 
+2.10 GHz;   1.6% 
+1.71 GHz;   1.6% 
+2.60 GHz;   0.5% 
+2.50 GHz;   0.6% 
+2.40 GHz;   0.8% 
+2.71 GHz;   0.5% 
+2.81 GHz;   1.3% 
+2.90 GHz;   1.0% 
+1400 MHz;  10.0% 
+;Core 6
+Idle;  97.9% 
+1200 MHz;   0.5% 
+2.21 GHz;   0.1% 
+2.31 GHz;   0.0% 
+1.91 GHz;   0.1% 
+2.00 GHz;   0.1% 
+1.80 GHz;   0.1% 
+2.10 GHz;   0.1% 
+1.60 GHz;   0.1% 
+1.71 GHz;   0.1% 
+2.60 GHz;   0.0% 
+2.50 GHz;   0.0% 
+2.40 GHz;   0.0% 
+2.71 GHz;   0.0% 
+2.81 GHz;   0.0% 
+2.90 GHz;   0.0% 
+3.00 GHz;   0.3% 
+1300 MHz;   0.1% 
+1500 MHz;   0.1% 
+1400 MHz;   0.1% 
+;Core 7
+Idle;  97.8% 
+1200 MHz;   1.0% 
+3.00 GHz;   0.6% 
+2.21 GHz;   0.0% 
+1.91 GHz;   0.0% 
+2.31 GHz;   0.0% 
+1.80 GHz;   0.0% 
+1.60 GHz;   0.0% 
+2.00 GHz;   0.0% 
+2.10 GHz;   0.0% 
+1.71 GHz;   0.0% 
+2.60 GHz;   0.0% 
+2.50 GHz;   0.0% 
+2.40 GHz;   0.0% 
+2.71 GHz;   0.0% 
+2.81 GHz;   0.0% 
+2.90 GHz;   0.0% 
+1500 MHz;   0.1% 
+1300 MHz;   0.2% 
+1400 MHz;   0.1% 
+
+CPU 0;CPU 16
+Average;1.7 GHz;1.9 GHz
+Idle;  99.9% ;   7.5% 
+3.00 GHz;   0.0% ;   1.1% 
+1200 MHz;   0.0% ;   1.4% 
+2.00 GHz;   0.0% ;   1.3% 
+2.31 GHz;   0.0% ;  29.1% 
+1.91 GHz;   0.0% ;   1.2% 
+2.21 GHz;   0.0% ;   6.7% 
+1.80 GHz;   0.0% ;   1.8% 
+1.71 GHz;   0.0% ;  10.0% 
+2.60 GHz;   0.0% ;   1.3% 
+2.50 GHz;   0.0% ;  29.6% 
+2.40 GHz;   0.0% ;   1.6% 
+2.10 GHz;   0.0% ;   1.1% 
+1.60 GHz;   0.0% ;   0.6% 
+2.71 GHz;   0.0% ;   1.6% 
+2.81 GHz;   0.0% ;   0.8% 
+2.90 GHz;   0.0% ;   0.5% 
+   0.5% 
+   1.3% 
+   0.9% 
+CPU 1;CPU 17
+Average;1.8 GHz;1.8 GHz
+Idle;  99.8% ; 100.0% 
+1200 MHz;   0.0% ;   0.0% 
+3.00 GHz;   0.2% ;   0.0% 
+2.00 GHz;   0.0% ;   0.0% 
+2.21 GHz;   0.0% ;   0.0% 
+1.91 GHz;   0.0% ;   0.0% 
+2.31 GHz;   0.0% ;   0.0% 
+1.60 GHz;   0.0% ;   0.0% 
+2.10 GHz;   0.0% ;   0.0% 
+1.80 GHz;   0.0% ;   0.0% 
+1.71 GHz;   0.0% ;
+2.60 GHz;   0.0% ;
+2.50 GHz;   0.0% ;
+2.40 GHz;   0.0% ;
+2.81 GHz;   0.0% ;
+2.71 GHz;   0.0% ;
+2.90 GHz;   0.0% ;
+CPU 2;CPU 18
+Average;1.7 GHz;1.6 GHz
+Idle;   7.5% ; 100.0% 
+1200 MHz;  29.1% ;   0.0% 
+2.00 GHz;   1.2% ;   0.0% 
+2.21 GHz;   1.3% ;   0.0% 
+1.91 GHz;   1.4% ;   0.0% 
+2.31 GHz;   1.1% ;   0.0% 
+1.80 GHz;   1.1% ;   0.0% 
+1.71 GHz;   1.6% ;   0.0% 
+2.10 GHz;   1.6% ;   0.0% 
+2.40 GHz;   0.8% ;   0.0% 
+2.50 GHz;   0.6% ;   0.0% 
+2.60 GHz;   0.5% ;   0.0% 
+2.71 GHz;   0.5% ;   0.0% 
+2.81 GHz;   1.3% ;   0.0% 
+2.90 GHz;   0.9% ;
+3.00 GHz;   6.6% ;
+1300 MHz;   1.8% ;
+1400 MHz;  10.0% ;
+1500 MHz;   1.3% ;
+1.60 GHz;  29.6% ;
+CPU 3;CPU 19
+Average;1.8 GHz;1.7 GHz
+Idle;  99.8% ; 100.0% 
+1200 MHz;   0.1% ;   0.0% 
+3.00 GHz;   0.1% ;   0.0% 
+2.00 GHz;   0.0% ;   0.0% 
+2.21 GHz;   0.0% ;   0.0% 
+1.91 GHz;   0.0% ;   0.0% 
+2.31 GHz;   0.0% ;   0.0% 
+1.80 GHz;   0.0% ;   0.0% 
+2.10 GHz;   0.0% ;   0.0% 
+1.71 GHz;   0.0% ;   0.0% 
+2.81 GHz;   0.0% ;   0.0% 
+CPU 4;CPU 20
+Average;1.8 GHz;1.7 GHz
+Idle;  99.5% ;  12.8% 
+1200 MHz;   0.0% ;  24.0% 
+2.31 GHz;   0.0% ;   1.2% 
+1.91 GHz;   0.0% ;   1.4% 
+2.21 GHz;   0.0% ;   1.6% 
+2.00 GHz;   0.0% ;   1.3% 
+2.10 GHz;   0.0% ;   1.1% 
+1.80 GHz;   0.0% ;  29.6% 
+1.71 GHz;   0.0% ;   1.1% 
+2.50 GHz;   0.0% ;   1.6% 
+2.60 GHz;   0.0% ;   0.9% 
+2.40 GHz;   0.0% ;   6.5% 
+2.71 GHz;   0.0% ;   1.8% 
+2.81 GHz;   0.0% ;  10.0% 
+2.90 GHz;   0.0% ;   1.3% 
+3.00 GHz;   0.5% ;   0.6% 
+   0.8% 
+   0.5% 
+   0.5% 
+   1.3% 
+CPU 5;CPU 21
+Average;1.7 GHz;1.7 GHz
+Idle;  99.8% ;  13.1% 
+1200 MHz;   0.0% ;  23.7% 
+3.00 GHz;   0.2% ;   1.1% 
+2.21 GHz;   0.0% ;   1.4% 
+2.31 GHz;   0.0% ;   1.3% 
+1.91 GHz;   0.0% ;   1.2% 
+1.60 GHz;   0.0% ;   1.1% 
+1300 MHz;   0.0% ;   1.6% 
+1.80 GHz;   0.0% ;   1.6% 
+2.00 GHz;   0.0% ;   6.5% 
+1500 MHz;   0.0% ;   1.8% 
+2.10 GHz;   0.0% ;  10.0% 
+1.71 GHz;   0.0% ;   1.3% 
+2.60 GHz;   0.0% ;  29.6% 
+2.50 GHz;   0.0% ;   0.6% 
+2.40 GHz;   0.0% ;   0.8% 
+2.71 GHz;   0.0% ;   0.5% 
+2.81 GHz;   0.0% ;   0.5% 
+2.90 GHz;   0.0% ;   1.3% 
+   0.9% 
+CPU 6;CPU 22
+Average;1.9 GHz;1.7 GHz
+Idle;  99.8% ;  98.1% 
+1200 MHz;   0.0% ;   0.5% 
+2.31 GHz;   0.0% ;   0.1% 
+1.91 GHz;   0.0% ;   0.0% 
+2.21 GHz;   0.0% ;   0.1% 
+2.00 GHz;   0.0% ;   0.1% 
+1.80 GHz;   0.0% ;   0.1% 
+2.10 GHz;   0.0% ;   0.1% 
+1.60 GHz;   0.0% ;   0.1% 
+1.71 GHz;   0.0% ;   0.2% 
+2.60 GHz;   0.0% ;   0.1% 
+2.50 GHz;   0.0% ;   0.1% 
+2.40 GHz;   0.0% ;   0.1% 
+2.71 GHz;   0.0% ;   0.1% 
+2.81 GHz;   0.0% ;   0.0% 
+2.90 GHz;   0.0% ;   0.0% 
+3.00 GHz;   0.1% ;   0.0% 
+   0.0% 
+   0.0% 
+   0.0% 
+CPU 7;CPU 23
+Average;1.8 GHz;1.6 GHz
+Idle;  99.8% ;  98.0% 
+1200 MHz;   0.0% ;   1.0% 
+3.00 GHz;   0.2% ;   0.0% 
+2.21 GHz;   0.0% ;   0.0% 
+2.31 GHz;   0.0% ;   0.0% 
+1.60 GHz;   0.0% ;   0.0% 
+1.91 GHz;   0.0% ;   0.0% 
+2.00 GHz;   0.0% ;   0.0% 
+1.80 GHz;   0.0% ;   0.0% 
+2.10 GHz;   0.0% ;   0.4% 
+1.71 GHz;   0.0% ;   0.1% 
+2.60 GHz;   0.0% ;   0.0% 
+2.50 GHz;   0.0% ;   0.2% 
+2.40 GHz;   0.0% ;   0.1% 
+2.71 GHz;   0.0% ;   0.0% 
+2.81 GHz;   0.0% ;   0.0% 
+2.90 GHz;   0.0% ;   0.0% 
+   0.0% 
+   0.0% 
+   0.0% 
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+
+Package;1
+Idle;  29.6% 
+1200 MHz;   8.9% 
+3.00 GHz;  21.6% 
+1.91 GHz;   0.5% 
+2.00 GHz;   0.3% 
+2.10 GHz;   0.3% 
+2.21 GHz;   0.2% 
+2.31 GHz;   0.3% 
+1500 MHz;   0.8% 
+1.71 GHz;   0.7% 
+1.80 GHz;   0.5% 
+1300 MHz;   1.0% 
+1.60 GHz;   0.8% 
+2.90 GHz;   1.1% 
+2.40 GHz;   0.3% 
+1400 MHz;   0.8% 
+2.50 GHz;   4.2% 
+2.60 GHz;   0.7% 
+2.71 GHz;  26.7% 
+2.81 GHz;   0.6% 
+;
+;
+;
+
+;Core 0
+Idle;  97.6% 
+1200 MHz;   0.6% 
+3.00 GHz;   0.8% 
+1.91 GHz;   0.1% 
+2.31 GHz;   0.0% 
+2.00 GHz;   0.1% 
+1.80 GHz;   0.1% 
+2.21 GHz;   0.0% 
+1.60 GHz;   0.1% 
+1300 MHz;   0.1% 
+1.71 GHz;   0.1% 
+1500 MHz;   0.1% 
+2.10 GHz;   0.0% 
+2.90 GHz;   0.0% 
+2.40 GHz;   0.0% 
+1400 MHz;   0.1% 
+2.50 GHz;   0.0% 
+2.60 GHz;   0.0% 
+2.71 GHz;   0.0% 
+2.81 GHz;   0.0% 
+;Core 1
+Idle;  34.1% 
+1200 MHz;   7.6% 
+3.00 GHz;  19.7% 
+1.91 GHz;   0.4% 
+2.00 GHz;   0.2% 
+2.10 GHz;   0.2% 
+2.21 GHz;   0.2% 
+2.31 GHz;   0.3% 
+1.80 GHz;   0.4% 
+1500 MHz;   0.6% 
+1300 MHz;   0.9% 
+1.71 GHz;   0.6% 
+1400 MHz;   0.6% 
+1.60 GHz;   0.6% 
+2.40 GHz;   0.3% 
+2.50 GHz;   4.2% 
+2.60 GHz;   0.7% 
+2.71 GHz;  26.7% 
+2.81 GHz;   0.6% 
+2.90 GHz;   1.0% 
+;Core 2
+Idle;  32.7% 
+1200 MHz;   7.9% 
+3.00 GHz;  20.3% 
+1.91 GHz;   0.4% 
+2.31 GHz;   0.3% 
+1.80 GHz;   0.5% 
+1.71 GHz;   0.6% 
+2.00 GHz;   0.3% 
+2.21 GHz;   0.2% 
+1.60 GHz;   0.7% 
+1500 MHz;   0.7% 
+1400 MHz;   0.7% 
+2.10 GHz;   0.2% 
+1300 MHz;   0.9% 
+2.40 GHz;   0.3% 
+2.50 GHz;   4.2% 
+2.71 GHz;  26.7% 
+2.81 GHz;   0.6% 
+2.90 GHz;   1.1% 
+2.60 GHz;   0.7% 
+;Core 3
+Idle;  32.1% 
+1200 MHz;   8.1% 
+3.00 GHz;  20.6% 
+2.31 GHz;   0.3% 
+1.91 GHz;   0.4% 
+1.71 GHz;   0.6% 
+2.00 GHz;   0.3% 
+1.80 GHz;   0.5% 
+2.21 GHz;   0.2% 
+1.60 GHz;   0.7% 
+1500 MHz;   0.7% 
+1300 MHz;   0.9% 
+1400 MHz;   0.7% 
+2.10 GHz;   0.2% 
+2.40 GHz;   0.3% 
+2.71 GHz;  26.7% 
+2.81 GHz;   0.6% 
+2.90 GHz;   1.1% 
+2.50 GHz;   4.2% 
+2.60 GHz;   0.7% 
+;Core 4
+Idle;  32.9% 
+1200 MHz;   8.0% 
+3.00 GHz;  20.3% 
+2.31 GHz;   0.3% 
+1.91 GHz;   0.4% 
+1.71 GHz;   0.6% 
+2.00 GHz;   0.2% 
+1.80 GHz;   0.4% 
+2.21 GHz;   0.2% 
+1.60 GHz;   0.7% 
+2.40 GHz;   0.3% 
+1500 MHz;   0.7% 
+1300 MHz;   0.9% 
+1400 MHz;   0.7% 
+2.10 GHz;   0.2% 
+2.71 GHz;  26.7% 
+2.81 GHz;   0.6% 
+2.90 GHz;   1.1% 
+2.50 GHz;   4.2% 
+2.60 GHz;   0.7% 
+;Core 5
+Idle;  97.4% 
+1200 MHz;   0.7% 
+3.00 GHz;   1.1% 
+1.91 GHz;   0.0% 
+2.00 GHz;   0.0% 
+2.10 GHz;   0.0% 
+2.21 GHz;   0.0% 
+2.31 GHz;   0.0% 
+1.71 GHz;   0.1% 
+1.80 GHz;   0.1% 
+1.60 GHz;   0.1% 
+1500 MHz;   0.1% 
+2.90 GHz;   0.0% 
+1400 MHz;   0.1% 
+1300 MHz;   0.1% 
+2.40 GHz;   0.0% 
+2.50 GHz;   0.0% 
+2.60 GHz;   0.0% 
+2.71 GHz;   0.0% 
+2.81 GHz;   0.0% 
+;Core 6
+Idle;  45.8% 
+1200 MHz;   2.3% 
+3.00 GHz;  14.8% 
+2.00 GHz;   0.2% 
+2.10 GHz;   0.2% 
+2.21 GHz;   0.2% 
+2.31 GHz;   0.3% 
+1.71 GHz;   0.5% 
+1.91 GHz;   0.3% 
+1500 MHz;   0.4% 
+1.80 GHz;   0.3% 
+1.60 GHz;   0.5% 
+1400 MHz;   0.4% 
+2.90 GHz;   1.0% 
+1300 MHz;   0.4% 
+2.40 GHz;   0.3% 
+2.50 GHz;   4.2% 
+2.60 GHz;   0.7% 
+2.71 GHz;  26.7% 
+2.81 GHz;   0.6% 
+;Core 7
+Idle;  97.4% 
+1200 MHz;   0.2% 
+3.00 GHz;   2.2% 
+1.91 GHz;   0.0% 
+2.31 GHz;   0.0% 
+2.00 GHz;   0.0% 
+1500 MHz;   0.0% 
+1.71 GHz;   0.0% 
+2.10 GHz;   0.0% 
+2.21 GHz;   0.0% 
+1.60 GHz;   0.0% 
+1.80 GHz;   0.0% 
+2.40 GHz;   0.0% 
+2.50 GHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   0.0% 
+2.81 GHz;   0.0% 
+2.90 GHz;   0.0% 
+2.60 GHz;   0.0% 
+2.71 GHz;   0.0% 
+
+CPU 8;CPU 24
+Average;2.1 GHz;2.0 GHz
+Idle;  98.3% ;  99.2% 
+1200 MHz;   0.5% ;   0.1% 
+3.00 GHz;   0.5% ;   0.4% 
+1.91 GHz;   0.1% ;   0.0% 
+2.31 GHz;   0.0% ;   0.0% 
+1.71 GHz;   0.1% ;   0.0% 
+2.21 GHz;   0.0% ;   0.0% 
+2.00 GHz;   0.0% ;   0.0% 
+1500 MHz;   0.1% ;   0.0% 
+1.80 GHz;   0.1% ;   0.0% 
+1300 MHz;   0.1% ;   0.0% 
+1.60 GHz;   0.1% ;   0.0% 
+2.10 GHz;   0.0% ;   0.0% 
+2.90 GHz;   0.0% ;   0.0% 
+2.40 GHz;   0.0% ;   0.0% 
+1400 MHz;   0.1% ;   0.0% 
+2.50 GHz;   0.0% ;   0.0% 
+2.60 GHz;   0.0% ;   0.0% 
+2.71 GHz;   0.0% ;   0.0% 
+2.81 GHz;   0.0% ;   0.0% 
+CPU 9;CPU 25
+Average;1.8 GHz;1.9 GHz
+Idle;  34.4% ;  99.6% 
+3.00 GHz;  19.6% ;   0.1% 
+1200 MHz;   7.6% ;   0.1% 
+2.21 GHz;   0.2% ;   0.0% 
+1.91 GHz;   0.4% ;   0.0% 
+2.00 GHz;   0.2% ;   0.0% 
+1400 MHz;   0.6% ;   0.0% 
+1500 MHz;   0.6% ;   0.0% 
+1.60 GHz;   0.6% ;   0.0% 
+1.71 GHz;   0.6% ;   0.0% 
+1.80 GHz;   0.4% ;   0.0% 
+1300 MHz;   0.8% ;   0.0% 
+2.10 GHz;   0.2% ;   0.0% 
+2.40 GHz;   0.3% ;   0.0% 
+2.50 GHz;   4.2% ;   0.0% 
+2.60 GHz;   0.7% ;   0.0% 
+2.31 GHz;   0.3% ;   0.0% 
+2.71 GHz;  26.7% ;   0.0% 
+2.81 GHz;   0.6% ;   0.0% 
+2.90 GHz;   1.0% ;   0.0% 
+CPU 10;CPU 26
+Average;1.8 GHz;1.8 GHz
+Idle;  98.2% ;  33.2% 
+1200 MHz;   0.5% ;  20.2% 
+3.00 GHz;   1.0% ;   7.7% 
+2.31 GHz;   0.0% ;   0.4% 
+1.91 GHz;   0.0% ;   0.3% 
+1.71 GHz;   0.0% ;   0.5% 
+2.21 GHz;   0.0% ;   0.6% 
+2.00 GHz;   0.0% ;   0.2% 
+1.80 GHz;   0.0% ;   0.2% 
+1.60 GHz;   0.0% ;   0.6% 
+1500 MHz;   0.0% ;   0.7% 
+1400 MHz;   0.1% ;   0.7% 
+2.10 GHz;   0.0% ;   0.9% 
+1300 MHz;   0.1% ;   0.6% 
+2.40 GHz;   0.0% ;   0.3% 
+2.50 GHz;   0.0% ;   4.2% 
+2.71 GHz;   0.0% ;  26.7% 
+2.81 GHz;   0.0% ;   0.2% 
+2.90 GHz;   0.0% ;   0.7% 
+2.60 GHz;   0.0% ;   1.1% 
+CPU 11;CPU 27
+Average;1.9 GHz;1.8 GHz
+Idle;  32.1% ;  48.2% 
+1200 MHz;   8.1% ;   1.8% 
+3.00 GHz;  20.6% ;  13.5% 
+2.31 GHz;   0.3% ;   0.3% 
+1.91 GHz;   0.4% ;   0.3% 
+1.71 GHz;   0.6% ;   0.4% 
+2.00 GHz;   0.3% ;   0.2% 
+2.21 GHz;   0.2% ;   0.3% 
+1.60 GHz;   0.7% ;   0.1% 
+1500 MHz;   0.7% ;   0.5% 
+1300 MHz;   0.9% ;   0.2% 
+1400 MHz;   0.7% ;   0.4% 
+1.80 GHz;   0.5% ;   0.3% 
+2.10 GHz;   0.2% ;   0.6% 
+2.40 GHz;   0.3% ;  26.7% 
+2.71 GHz;  26.7% ;   0.2% 
+2.81 GHz;   0.6% ;   1.0% 
+2.90 GHz;   1.1% ;   0.3% 
+2.50 GHz;   4.2% ;   0.7% 
+2.60 GHz;   0.7% ;   4.2% 
+CPU 12;CPU 28
+Average;1.9 GHz;1.9 GHz
+Idle;  32.9% ;  98.5% 
+1200 MHz;   8.0% ;   0.2% 
+3.00 GHz;  20.3% ;   1.2% 
+2.31 GHz;   0.3% ;   0.0% 
+1.91 GHz;   0.4% ;   0.0% 
+1.71 GHz;   0.6% ;   0.0% 
+1.80 GHz;   0.4% ;   0.0% 
+2.21 GHz;   0.2% ;   0.0% 
+2.00 GHz;   0.2% ;   0.0% 
+1.60 GHz;   0.7% ;   0.0% 
+2.40 GHz;   0.3% ;   0.0% 
+1500 MHz;   0.7% ;   0.0% 
+1300 MHz;   0.9% ;   0.0% 
+1400 MHz;   0.7% ;   0.0% 
+2.10 GHz;   0.2% ;   0.0% 
+2.71 GHz;  26.7% ;   0.0% 
+2.81 GHz;   0.6% ;   0.0% 
+2.90 GHz;   1.1% ;   0.0% 
+2.50 GHz;   4.2% ;   0.0% 
+2.60 GHz;   0.7% ;   0.0% 
+CPU 13;CPU 29
+Average;1.9 GHz;1.9 GHz
+Idle;  97.5% ; 100.0% 
+1200 MHz;   0.6% ;   0.0% 
+3.00 GHz;   1.1% ;   0.0% 
+2.31 GHz;   0.0% ;   0.0% 
+1.91 GHz;   0.0% ;   0.0% 
+1.71 GHz;   0.1% ;   0.0% 
+2.21 GHz;   0.0% ;   0.0% 
+2.00 GHz;   0.0% ;   0.0% 
+1.60 GHz;   0.1% ;   0.0% 
+1500 MHz;   0.1% ;   0.0% 
+2.90 GHz;   0.0% ;   0.0% 
+1400 MHz;   0.1% ;   0.0% 
+1300 MHz;   0.1% ;   0.0% 
+1.80 GHz;   0.1% ;   0.0% 
+2.10 GHz;   0.0% ;   0.0% 
+2.40 GHz;   0.0% ;   0.0% 
+2.50 GHz;   0.0% ;   0.0% 
+2.60 GHz;   0.0% ;   0.0% 
+2.71 GHz;   0.0% ;   0.0% 
+2.81 GHz;   0.0% ;   0.0% 
+CPU 14;CPU 30
+Average;2.0 GHz;1.8 GHz
+Idle;  45.9% ; 100.0% 
+1200 MHz;   2.3% ;   0.0% 
+3.00 GHz;  14.8% ;   0.0% 
+2.31 GHz;   0.3% ;   0.0% 
+1.91 GHz;   0.3% ;   0.0% 
+1.71 GHz;   0.5% ;   0.0% 
+2.00 GHz;   0.2% ;   0.0% 
+1.80 GHz;   0.3% ;   0.0% 
+2.21 GHz;   0.2% ;   0.0% 
+1.60 GHz;   0.5% ;   0.0% 
+2.10 GHz;   0.2% ;
+1400 MHz;   0.4% ;
+2.90 GHz;   1.0% ;
+1500 MHz;   0.4% ;
+1300 MHz;   0.4% ;
+2.40 GHz;   0.3% ;
+2.50 GHz;   4.2% ;
+2.60 GHz;   0.7% ;
+2.71 GHz;  26.7% ;
+2.81 GHz;   0.6% ;
+CPU 15;CPU 31
+Average;1.9 GHz;1.9 GHz
+Idle;  98.4% ;  99.0% 
+1200 MHz;   0.1% ;   0.1% 
+3.00 GHz;   1.3% ;   0.9% 
+2.31 GHz;   0.0% ;   0.0% 
+1.91 GHz;   0.0% ;   0.0% 
+1.71 GHz;   0.0% ;   0.0% 
+2.00 GHz;   0.0% ;   0.0% 
+2.10 GHz;   0.0% ;   0.0% 
+2.21 GHz;   0.0% ;   0.0% 
+1.80 GHz;   0.0% ;   0.0% 
+1.60 GHz;   0.0% ;   0.0% 
+1500 MHz;   0.0% ;   0.0% 
+1300 MHz;   0.0% ;   0.0% 
+1400 MHz;   0.0% ;   0.0% 
+2.81 GHz;   0.0% ;   0.0% 
+2.90 GHz;   0.0% ;   0.0% 
+2.40 GHz;   0.0% ;   0.0% 
+2.50 GHz;   0.0% ;   0.0% 
+2.60 GHz;   0.0% ;   0.0% 
+2.71 GHz;   0.0% ;   0.0% 
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+
+____________________________________________________________________
+ *  *  *   Overview of Software Power Consumers   *  *  *
+
+Usage;Wakeups/s;GPU ops/s;Disk IO/s;GFX Wakeups/s;Category;Description
+ 1093 ms/s; 0.03;;;;kWork;wb_workfn
+202.3 us/s;  6.0;;;;Timer;tick_sched_timer
+  8.9 ms/s; 0.23;;;;kWork;ext4_end_io_rsv_work
+  2.3 ms/s; 0.03;;;;Process;[PID 51041] Disk/read/0
+  2.3 ms/s; 0.00;;;;Process;[PID 51039] Disk/sort/1
+ 43.1 us/s;  0.7;;;;Interrupt;[4] block(softirq)
+ 10.9 us/s;  0.7;;;;Process;[PID 15] [rcu_sched]
+  8.1 us/s;  0.6;;;;Interrupt;[3] net_rx(softirq)
+  1.5 ms/s; 0.00;;;;Process;[PID 51038] Disk/sort/0
+  1.2 ms/s; 0.00;;;;Process;[PID 51031] phase1/eval/2
+  1.1 ms/s; 0.04;;;;Process;[PID 50991] phase1/add/1
+  1.0 ms/s; 0.00;;;;kWork;dm_wq_work
+  0.8 ms/s; 0.00;;;;Process;[PID 51034] phase1/match/1
+  3.1 us/s; 0.29;;;;Timer;watchdog_timer_fn
+537.7 us/s; 0.05;;;;Process;[PID 51042] Disk/read/1
+159.0 us/s; 0.18;;;;Interrupt;[7] sched(softirq)
+589.4 us/s; 0.00;;;;Process;[PID 51030] phase1/eval/1
+580.2 us/s; 0.00;;;;Process;[PID 51029] phase1/eval/0
+513.3 us/s; 0.01;;;;Process;[PID 50992] phase1/F1/0
+485.6 us/s; 0.02;;;;Process;[PID 51033] phase1/match/0
+448.8 us/s; 0.01;;;;Process;[PID 51037] phase1/slice
+ 33.5 us/s; 0.17;;;;Process;[PID 1714] /home/ubuntu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node /home/ubuntu/.vscode-server/bin/704ed7
+408.1 us/s; 0.01;;;;Process;[PID 51035] phase1/match/2
+ 37.5 us/s; 0.15;;;;kWork;psi_avgs_work
+195.2 us/s; 0.09;;;;kWork;blk_mq_run_work_fn
+409.8 us/s;;;;;Process;[PID 49486] kworker/u65:1
+329.5 us/s; 0.00;;;;Process;[PID 50990] phase1/add/0
+326.1 us/s; 0.00;;;;Process;[PID 51025] phase1/write/L
+ 48.2 us/s; 0.11;;;;Process;[PID 2138] node
+235.9 us/s; 0.01;;;;Process;[PID 50994] phase1/F1/2
+  0.9 us/s; 0.09;;;;Process;[PID 217] [kcompactd1]
+ 12.3 us/s; 0.08;;;;kWork;fb_flashcursor
+189.1 us/s; 0.00;;;;Process;[PID 51036] phase1/match/3
+181.4 us/s;;;;;Timer;process_timeout
+  7.5 us/s; 0.07;;;;Process;[PID 1654] /home/ubuntu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node /home/ubuntu/.vscode-server/bin/704ed7
+  0.3 us/s; 0.07;;;;kWork;flush_to_ldisc
+151.5 us/s; 0.01;;;;Process;[PID 50993] phase1/F1/1
+156.5 us/s; 0.01;;;;kWork;igb_watchdog_task
+156.9 us/s; 0.01;;;;Process;[PID 50995] phase1/F1/3
+  0.4 us/s; 0.05;;;;Timer;sched_rt_period_timer
+  1.5 us/s; 0.05;;;;Process;[PID 901] /sbin/multipathd -d -s 
+  4.4 us/s; 0.04;;;;kWork;blk_mq_requeue_work
+ 48.0 us/s; 0.02;;;;kWork;acpi_os_execute_deferred
+ 46.2 us/s; 0.01;;;;Interrupt;[9] acpi
+  0.9 us/s; 0.03;;;;Process;[PID 2161] /home/ubuntu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node /home/ubuntu/.vscode-server/bin/704ed7
+  1.0 us/s; 0.03;;;;Process;[PID 2162] node
+  4.9 us/s; 0.03;;;;Interrupt;[40] ahci[0000:00:11.4]
+  0.3 us/s; 0.03;;;;Process;[PID 216] [kcompactd0]
+  9.3 us/s; 0.02;;;;Timer;hrtimer_wakeup
+ 65.6 us/s;;;;;kWork;vmstat_update
+  1.5 us/s; 0.02;;;;kWork;wb_update_bandwidth_workfn
+ 36.4 us/s; 0.01;;;;Process;[PID 50988] ./build/chia_plot -n 1 -r 4 -u 256 -t ../tmpdir/ -2 ../tmpdir2/ -d ../dstdir/ --farmerkey b470dee4fe2bd33fa2756c76b
+ 48.3 us/s;;;;;Timer;delayed_work_timer_fn
+  1.2 us/s; 0.02;;;;Process;[PID 46056] node
+ 40.1 us/s;;;;;kWork;drain_local_pages_wq
+ 36.0 us/s; 0.00;;;;Interrupt;[9] RCU(softirq)
+  0.8 us/s; 0.01;;;;kWork;pci_pme_list_scan
+  1.5 us/s; 0.01;;;;Process;[PID 777] [jbd2/sda2-8]
+ 34.2 us/s;;;;;Timer;blk_stat_timer_fn
+ 16.6 us/s; 0.00;;;;Process;[PID 50949] powertop --csv=/mnt/mymergedstorage/output.csv --time=7200 
+  3.7 us/s; 0.01;;;;kWork;vmstat_shepherd
+ 13.7 us/s; 0.00;;;;Process;[PID 1410] /usr/sbin/irqbalance --foreground 
+  0.7 us/s; 0.01;;;;Process;[PID 2149] /home/ubuntu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node /home/ubuntu/.vscode-server/bin/704ed7
+ 20.2 us/s; 0.00;;;;Interrupt;[1] timer(softirq)
+  0.4 us/s; 0.01;;;;kWork;blk_mq_timeout_work
+ 11.7 us/s; 0.00;;;;Timer;mix_interrupt_randomness
+  7.8 us/s; 0.00;;;;kWork;flush_memcg_stats_dwork
+ 12.8 us/s;;;;;kWork;key_garbage_collector
+ 12.2 us/s;;;;;kWork;cgroup_bpf_release
+  0.0 us/s; 0.00;;;;Process;[PID 1853] /usr/lib/snapd/snapd 
+  3.1 us/s; 0.00;;;;Process;[PID 850] /lib/systemd/systemd-journald 
+ 10.0 us/s; 0.00;;;;Process;[PID 51040] Disk/sort
+  0.5 us/s; 0.00;;;;kWork;free_work
+  9.8 us/s; 0.00;;;;Process;[PID 51032] phase1/eval/3
+  0.2 us/s; 0.00;;;;Process;[PID 50934] screen -R powertop 
+  8.9 us/s;;;;;Interrupt;[60] ahci[0000:00:1f.2]
+  8.9 us/s;;;;;kWork;css_killed_work_fn
+  0.1 us/s; 0.00;;;;kWork;cmd_work_handler
+  8.4 us/s;;;;;kWork;vmpressure_work_fn
+  2.5 us/s; 0.00;;;;kWork;bpf_prog_free_deferred
+  1.8 us/s; 0.00;;;;Process;[PID 1280] [jbd2/dm-0-8]
+  3.3 us/s; 0.00;;;;kWork;mlx5e_rx_dim_work
+  0.0 us/s; 0.00;;;;kWork;handle_update
+  6.0 us/s;;;;;Process;[PID 50720] /bin/bash 
+  0.9 us/s; 0.00;;;;Interrupt;[61] mlx5_async0@pci:0000:01:00.0
+  0.8 us/s; 0.00;;;;Process;[PID 894] /sbin/multipathd -d -s 
+  5.2 us/s;;;;;Interrupt;[62] mlx5_comp0@pci:0000:01:00.0
+  4.6 us/s; 0.00;;;;kWork;drm_fb_helper_damage_work
+  2.0 us/s; 0.00;;;;Process;[PID 50719] SCREEN -R shlok 
+  0.1 us/s; 0.00;;;;kWork;kfree_rcu_monitor
+  3.0 us/s; 0.00;;;;Process;[PID 51043] sshd
+  0.1 us/s; 0.00;;;;kWork;kfree_rcu_work
+  0.1 us/s; 0.00;;;;Process;[PID 21272] /usr/libexec/packagekitd 
+  3.6 us/s;;;;;Process;[PID 50856] kworker/u65:2
+  0.0 us/s; 0.00;;;;Process;[PID 186] [ksoftirqd/28]
+  1.7 us/s; 0.00;;;;Process;[PID 51050] sshd
+  3.0 us/s; 0.00;;;;Process;[PID 50998] sshd
+  3.0 us/s; 0.00;;;;Process;[PID 50974] sshd
+  3.0 us/s; 0.00;;;;Process;[PID 51006] sshd
+  2.9 us/s; 0.00;;;;Process;[PID 50957] sshd
+
+____________________________________________________________________
+ *  *  *   Device Power Report   *  *  *
+
+Usage;Device Name
+112.0%;DRAM
+112.0%;CPU misc
+112.0%;CPU misc
+112.0%;CPU core
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;USB device: xHCI Host Controller
+100.0%;USB device: usb-device-0557-2419
+100.0%;USB device: usb-device-0557-7000
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: NVIDIA Corporation GK110BGL [Tesla K40m]
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode]
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset PCI Express Root Port #5
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Thermal Control
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: NVIDIA Corporation GK110BGL [Tesla K40m]
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset LPC Controller
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+100.0%;PCI Device: NVIDIA Corporation GK110BGL [Tesla K40m]
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+100.0%;PCI Device: NVIDIA Corporation GK110BGL [Tesla K40m]
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset MEI Controller #1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+100.0%;PCI Device: Mellanox Technologies MT27710 Family [ConnectX-4 Lx]
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset PCI Express Root Port #4
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Error
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Error
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5
+100.0%;PCI Device: ASPEED Technology, Inc. ASPEED Graphics Family
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Thermal Control
+100.0%;PCI Device: Intel Corporation I350 Gigabit Network Connection
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset USB Enhanced Host Controller #1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset sSATA Controller [AHCI mode]
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset USB Enhanced Host Controller #2
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Thermal Control
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+100.0%;PCI Device: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Thermal Control
+100.0%;PCI Device: Intel Corporation I350 Gigabit Network Connection
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Error
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset MEI Controller #2
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset SPSR
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Error
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+100.0%;PCI Device: Intel Corporation C610/X99 series chipset USB xHCI Host Controller
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management
+100.0%;PCI Device: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+ 12.4 pkts/s;Network interface: ens10 (mlx5_core)
+ 10.3 pkts/s;nic:ens10.14
+  0.0%;runtime-PNP0C14:00
+  0.0%;runtime-alarmtimer.0.auto
+  0.0%;PCI Device: Intel Corporation C610/X99 series chipset HD Audio Controller
+  0.0%;PCI Device: Intel Corporation C610/X99 series chipset PCI Express Root Port #1
+  0.0%;PCI Device: Intel Corporation C610/X99 series chipset SMBus Controller
+  0.0 pkts/s;Network interface: eno1 (igb)
+  0.0 pkts/s;Network interface: eno2 (igb)
+  0.0%;Audio codec hwC0D0: Realtek
+  0.0%;USB device: EHCI Host Controller
+  0.0%;USB device: xHCI Host Controller
+  0.0%;USB device: usb-device-8087-800a
+  0.0%;USB device: EHCI Host Controller
+  0.0%;USB device: usb-device-8087-8002
+  0.0%;runtime-GHES.1
+  0.0%;runtime-reg-dummy
+  0.0%;runtime-ACPI000D:00
+  0.0%;runtime-coretemp.1
+  0.0%;runtime-kgdboc
+  0.0%;runtime-eisa.0
+  0.0%;runtime-microcode
+  0.0%;runtime-intel_rapl_msr.0
+  0.0%;runtime-dmi-ipmi-si.0
+  0.0%;runtime-Fixed MDIO bus.0
+  0.0%;runtime-PNP0C0C:00
+  0.0%;runtime-ACPI000C:00
+  0.0%;I2C Adapter (i2c-0): SMBus I801 adapter at 0580
+  0.0%;runtime-coretemp.0
+  0.0%;runtime-PNP0800:00
+  0.0%;runtime-ipmi_bmc.0
+  0.0%;runtime-PNP0C14:01
+  0.0%;runtime-PNP0103:00
+  0.0%;I2C Adapter (i2c-5): NVIDIA i2c adapter 2 at 3:00.0
+  0.0%;runtime-PNP0C04:00
+  0.0%;runtime-efivars.0
+  0.0%;runtime-serial8250
+  0.0%;runtime-iTCO_wdt.1.auto
+  0.0%;runtime-rtc-efi.0
+  0.0%;runtime-GHES.2
+  0.0%;runtime-PNP0C33:00
+  0.0%;runtime-PNP0003:00
+  0.0%;runtime-PNP0C14:02
+  0.0%;runtime-pcspkr
+  0.0%;runtime-IPI0001:00
+  0.0%;I2C Adapter (i2c-3): AST i2c bit bus
+  0.0%;I2C Adapter (i2c-1): igb BB
+  0.0%;I2C Device (1-007c): i350bb
+  0.0%;I2C Adapter (i2c-6): NVIDIA i2c adapter 2 at 83:00.0
+  0.0%;I2C Adapter (i2c-4): NVIDIA i2c adapter 2 at 2:00.0
+  0.0%;I2C Adapter (i2c-2): igb BB
+  0.0%;I2C Adapter (i2c-7): NVIDIA i2c adapter 2 at 84:00.0
+112.0%;DRAM
+____________________________________________________________________
+ *  *  *   Process Device Activity   *  *  *
+
+Process;Device
+systemd;/dev/autofs
+;/dev/kmsg
+;/dev/rfkill
+systemd-journal;/dev/kmsg
+;/dev/kmsg
+multipathd;/dev/mapper/control
+;/dev/mapper/control
+systemd-logind;/dev/input/event0
+;/dev/input/event1
+;/dev/input/event2
+
+____________________________________________________________________
+ *  *  *   AHCI ALPM Residency Statistics - Not supported on this macine   *  *  *
+
+____________________________________________________________________
+ *  *  *   Software Settings in Need of Tuning   *  *  *
+
+Description;Script
+Enable SATA link power management for host0;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host0/link_power_management_policy';
+Enable SATA link power management for host2;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host2/link_power_management_policy';
+Enable SATA link power management for host4;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host4/link_power_management_policy';
+Enable SATA link power management for host6;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host6/link_power_management_policy';
+Enable SATA link power management for host8;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host8/link_power_management_policy';
+Enable SATA link power management for host1;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host1/link_power_management_policy';
+Enable SATA link power management for host3;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host3/link_power_management_policy';
+Enable SATA link power management for host5;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host5/link_power_management_policy';
+Enable SATA link power management for host7;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host7/link_power_management_policy';
+Enable SATA link power management for host9;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host9/link_power_management_policy';
+VM writeback timeout;echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
+NMI watchdog should be turned off;echo '0' > '/proc/sys/kernel/nmi_watchdog';
+Runtime PM for I2C Adapter i2c-1 (igb BB);echo 'auto' > '/sys/bus/i2c/devices/i2c-1/device/power/control';
+Runtime PM for I2C Adapter i2c-6 (NVIDIA i2c adapter 2 at 83:00.0);echo 'auto' > '/sys/bus/i2c/devices/i2c-6/device/power/control';
+Autosuspend for unknown USB device 3-13.1 (0557:2419);echo 'auto' > '/sys/bus/usb/devices/3-13.1/power/control';
+Runtime PM for I2C Adapter i2c-3 (AST i2c bit bus);echo 'auto' > '/sys/bus/i2c/devices/i2c-3/device/power/control';
+Runtime PM for I2C Adapter i2c-4 (NVIDIA i2c adapter 2 at 2:00.0);echo 'auto' > '/sys/bus/i2c/devices/i2c-4/device/power/control';
+Runtime PM for I2C Adapter i2c-2 (igb BB);echo 'auto' > '/sys/bus/i2c/devices/i2c-2/device/power/control';
+Runtime PM for I2C Adapter i2c-7 (NVIDIA i2c adapter 2 at 84:00.0);echo 'auto' > '/sys/bus/i2c/devices/i2c-7/device/power/control';
+Runtime PM for I2C Adapter i2c-5 (NVIDIA i2c adapter 2 at 3:00.0);echo 'auto' > '/sys/bus/i2c/devices/i2c-5/device/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS;echo 'auto' > '/sys/bus/pci/devices/0000:ff:13.0/power/control';
+Runtime PM for port ata5 of PCI device: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder;echo 'auto' > '/sys/bus/pci/devices/0000:7f:13.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:ff:1e.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.7/power/control';
+Runtime PM for PCI Device NVIDIA Corporation GK110BGL [Tesla K40m];echo 'auto' > '/sys/bus/pci/devices/0000:02:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0;echo 'auto' > '/sys/bus/pci/devices/0000:7f:08.3/power/control';
+Runtime PM for disk sda;echo 'auto' > '/sys/block/sda/device/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS;echo 'auto' > '/sys/bus/pci/devices/0000:7f:16.0/power/control';
+Runtime PM for disk sdb;echo 'auto' > '/sys/block/sdb/device/power/control';
+Runtime PM for disk sdc;echo 'auto' > '/sys/block/sdc/device/power/control';
+Runtime PM for disk sdd;echo 'auto' > '/sys/block/sdd/device/power/control';
+Runtime PM for disk sde;echo 'auto' > '/sys/block/sde/device/power/control';
+Runtime PM for disk sdf;echo 'auto' > '/sys/block/sdf/device/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1;echo 'auto' > '/sys/bus/pci/devices/0000:7f:09.3/power/control';
+Runtime PM for disk sdg;echo 'auto' > '/sys/block/sdg/device/power/control';
+Runtime PM for disk sdh;echo 'auto' > '/sys/block/sdh/device/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0c.6/power/control';
+Runtime PM for PCI Device NVIDIA Corporation GK110BGL [Tesla K40m];echo 'auto' > '/sys/bus/pci/devices/0000:03:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:ff:1f.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1;echo 'auto' > '/sys/bus/pci/devices/0000:ff:09.3/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox;echo 'auto' > '/sys/bus/pci/devices/0000:ff:10.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:10.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3;echo 'auto' > '/sys/bus/pci/devices/0000:80:04.3/power/control';
+Runtime PM for PCI Device Intel Corporation I350 Gigabit Network Connection;echo 'auto' > '/sys/bus/pci/devices/0000:81:00.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:ff:1e.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS;echo 'auto' > '/sys/bus/pci/devices/0000:ff:16.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:7f:1e.3/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset SPSR;echo 'auto' > '/sys/bus/pci/devices/0000:00:11.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0f.1/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset PCI Express Root Port #5;echo 'auto' > '/sys/bus/pci/devices/0000:00:1c.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0c.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0c.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:7f:1f.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder;echo 'auto' > '/sys/bus/pci/devices/0000:ff:13.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder;echo 'auto' > '/sys/bus/pci/devices/0000:7f:13.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:10.0/power/control';
+Runtime PM for PCI Device NVIDIA Corporation GK110BGL [Tesla K40m];echo 'auto' > '/sys/bus/pci/devices/0000:84:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors;echo 'auto' > '/sys/bus/pci/devices/0000:80:05.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:7f:15.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0f.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:7f:1f.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0c.6/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset LPC Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0f.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:7f:1e.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0f.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2;echo 'auto' > '/sys/bus/pci/devices/0000:80:04.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0c.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:7f:14.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder;echo 'auto' > '/sys/bus/pci/devices/0000:ff:13.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0f.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management;echo 'auto' > '/sys/bus/pci/devices/0000:80:05.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0f.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:ff:1e.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0b.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6;echo 'auto' > '/sys/bus/pci/devices/0000:80:04.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0c.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0c.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error;echo 'auto' > '/sys/bus/pci/devices/0000:ff:14.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox;echo 'auto' > '/sys/bus/pci/devices/0000:ff:10.7/power/control';
+Runtime PM for PCI Device NVIDIA Corporation GK110BGL [Tesla K40m];echo 'auto' > '/sys/bus/pci/devices/0000:83:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS;echo 'auto' > '/sys/bus/pci/devices/0000:7f:13.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:ff:1e.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:7f:1e.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0b.1/power/control';
+Runtime PM for port ata6 of PCI device: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0;echo 'auto' > '/sys/bus/pci/devices/0000:7f:08.0/power/control';
+Runtime PM for port ata7 of PCI device: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata7/power/control';
+Runtime PM for port ata8 of PCI device: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata8/power/control';
+Runtime PM for port ata9 of PCI device: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata9/power/control';
+Runtime PM for port ata10 of PCI device: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata10/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:7f:17.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox;echo 'auto' > '/sys/bus/pci/devices/0000:ff:10.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0c.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0;echo 'auto' > '/sys/bus/pci/devices/0000:ff:08.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0b.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0c.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:ff:14.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox;echo 'auto' > '/sys/bus/pci/devices/0000:7f:10.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug;echo 'auto' > '/sys/bus/pci/devices/0000:00:05.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error;echo 'auto' > '/sys/bus/pci/devices/0000:7f:14.3/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset MEI Controller #1;echo 'auto' > '/sys/bus/pci/devices/0000:00:16.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox;echo 'auto' > '/sys/bus/pci/devices/0000:7f:10.7/power/control';
+Runtime PM for PCI Device Mellanox Technologies MT27710 Family [ConnectX-4 Lx];echo 'auto' > '/sys/bus/pci/devices/0000:01:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0;echo 'auto' > '/sys/bus/pci/devices/0000:80:04.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Error;echo 'auto' > '/sys/bus/pci/devices/0000:7f:15.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS;echo 'auto' > '/sys/bus/pci/devices/0000:7f:13.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:7f:1e.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:10.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC;echo 'auto' > '/sys/bus/pci/devices/0000:80:05.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0c.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0c.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Error;echo 'auto' > '/sys/bus/pci/devices/0000:ff:15.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0;echo 'auto' > '/sys/bus/pci/devices/0000:ff:12.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0c.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7;echo 'auto' > '/sys/bus/pci/devices/0000:80:04.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0f.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0;echo 'auto' > '/sys/bus/pci/devices/0000:ff:12.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0f.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:7f:14.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2;echo 'auto' > '/sys/bus/pci/devices/0000:00:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast;echo 'auto' > '/sys/bus/pci/devices/0000:7f:16.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder;echo 'auto' > '/sys/bus/pci/devices/0000:ff:13.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder;echo 'auto' > '/sys/bus/pci/devices/0000:7f:13.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS;echo 'auto' > '/sys/bus/pci/devices/0000:ff:13.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4;echo 'auto' > '/sys/bus/pci/devices/0000:80:04.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.5/power/control';
+Runtime PM for PCI Device ASPEED Technology, Inc. ASPEED Graphics Family;echo 'auto' > '/sys/bus/pci/devices/0000:06:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:ff:15.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0b.2/power/control';
+Runtime PM for PCI Device Intel Corporation I350 Gigabit Network Connection;echo 'auto' > '/sys/bus/pci/devices/0000:81:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Error;echo 'auto' > '/sys/bus/pci/devices/0000:7f:15.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0;echo 'auto' > '/sys/bus/pci/devices/0000:7f:12.0/power/control';
+Runtime PM for port ata1 of PCI device: Intel Corporation C610/X99 series chipset sSATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:11.4/ata1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:7f:17.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder;echo 'auto' > '/sys/bus/pci/devices/0000:7f:13.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:ff:1e.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:10.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug;echo 'auto' > '/sys/bus/pci/devices/0000:80:05.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:7f:15.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast;echo 'auto' > '/sys/bus/pci/devices/0000:ff:13.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:7f:14.5/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset USB Enhanced Host Controller #2;echo 'auto' > '/sys/bus/pci/devices/0000:00:1a.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:7f:17.7/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset sSATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:11.4/power/control';
+Runtime PM for PCI Device ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge;echo 'auto' > '/sys/bus/pci/devices/0000:05:00.0/power/control';
+Runtime PM for port ata2 of PCI device: Intel Corporation C610/X99 series chipset sSATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:11.4/ata2/power/control';
+Runtime PM for port ata3 of PCI device: Intel Corporation C610/X99 series chipset sSATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:11.4/ata3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:ff:17.5/power/control';
+Runtime PM for port ata4 of PCI device: Intel Corporation C610/X99 series chipset sSATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:11.4/ata4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0;echo 'auto' > '/sys/bus/pci/devices/0000:7f:12.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast;echo 'auto' > '/sys/bus/pci/devices/0000:ff:16.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast;echo 'auto' > '/sys/bus/pci/devices/0000:7f:13.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:ff:17.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:ff:14.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC;echo 'auto' > '/sys/bus/pci/devices/0000:00:05.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0b.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0f.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0b.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder;echo 'auto' > '/sys/bus/pci/devices/0000:ff:13.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management;echo 'auto' > '/sys/bus/pci/devices/0000:00:05.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0;echo 'auto' > '/sys/bus/pci/devices/0000:ff:08.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0;echo 'auto' > '/sys/bus/pci/devices/0000:7f:08.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:ff:17.0/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset USB Enhanced Host Controller #1;echo 'auto' > '/sys/bus/pci/devices/0000:00:1d.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0c.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5;echo 'auto' > '/sys/bus/pci/devices/0000:80:04.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1;echo 'auto' > '/sys/bus/pci/devices/0000:7f:09.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1;echo 'auto' > '/sys/bus/pci/devices/0000:ff:09.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0c.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0c.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error;echo 'auto' > '/sys/bus/pci/devices/0000:ff:14.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1;echo 'auto' > '/sys/bus/pci/devices/0000:7f:09.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.1/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset MEI Controller #2;echo 'auto' > '/sys/bus/pci/devices/0000:00:16.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0c.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast;echo 'auto' > '/sys/bus/pci/devices/0000:ff:16.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:ff:14.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1;echo 'auto' > '/sys/bus/pci/devices/0000:ff:0b.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:7f:14.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0b.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1;echo 'auto' > '/sys/bus/pci/devices/0000:80:04.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:7f:17.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:7f:17.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error;echo 'auto' > '/sys/bus/pci/devices/0000:7f:14.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent;echo 'auto' > '/sys/bus/pci/devices/0000:7f:0f.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1;echo 'auto' > '/sys/bus/pci/devices/0000:ff:09.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors;echo 'auto' > '/sys/bus/pci/devices/0000:00:05.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:ff:17.4/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox;echo 'auto' > '/sys/bus/pci/devices/0000:7f:10.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:ff:15.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:7f:1e.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit;echo 'auto' > '/sys/bus/pci/devices/0000:ff:1f.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0;echo 'auto' > '/sys/bus/pci/devices/0000:ff:08.2/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast;echo 'auto' > '/sys/bus/pci/devices/0000:7f:16.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:7f:14.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast;echo 'auto' > '/sys/bus/pci/devices/0000:7f:13.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:ff:14.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:7f:14.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:ff:14.5/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface;echo 'auto' > '/sys/bus/pci/devices/0000:ff:17.7/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control;echo 'auto' > '/sys/bus/pci/devices/0000:ff:14.0/power/control';
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset USB xHCI Host Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:14.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast;echo 'auto' > '/sys/bus/pci/devices/0000:ff:13.6/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Error;echo 'auto' > '/sys/bus/pci/devices/0000:ff:15.3/power/control';
+____________________________________________________________________
+ *  *  *   Untunable Software Issues   *  *  *
+
+Description
+I2C Device 1-007c has no runtime power management
+____________________________________________________________________
+ *  *  *   Optimal Tuned Software Settings   *  *  *
+
+Description
+Enable Audio codec power management
+Autosuspend for USB device EHCI Host Controller [usb1]
+Autosuspend for USB device EHCI Host Controller [usb2]
+Autosuspend for unknown USB device 2-1 (8087:8002)
+Autosuspend for unknown USB device 3-13 (0557:7000)
+Runtime PM for I2C Adapter i2c-0 (SMBus I801 adapter at 0580)
+Autosuspend for USB device xHCI Host Controller [usb3]
+Autosuspend for USB device xHCI Host Controller [usb4]
+Autosuspend for unknown USB device 1-1 (8087:800a)
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 0
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset SMBus Controller
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset PCI Express Root Port #4
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset HD Audio Controller
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1
+Runtime PM for PCI Device Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+Runtime PM for PCI Device Intel Corporation C610/X99 series chipset PCI Express Root Port #1
+
+____________________________________________________________________
+ *  *  *   Wake status of the devices   *  *  *
+
+Description;Script
+Wake-on-lan status for device eno2;echo 'enabled' > '/sys/class/net/eno2/device/power/wakeup';
+Wake-on-lan status for device ens10;echo 'enabled' > '/sys/class/net/ens10/device/power/wakeup';
+Wake-on-lan status for device eno1;echo 'enabled' > '/sys/class/net/eno1/device/power/wakeup';
+Wake status for USB device usb3;echo 'enabled' > '/sys/bus/usb/devices/usb3/power/wakeup';
+Wake status for USB device 2-1;echo 'enabled' > '/sys/bus/usb/devices/2-1/power/wakeup';
+Wake status for USB device usb1;echo 'enabled' > '/sys/bus/usb/devices/usb1/power/wakeup';
+Wake status for USB device 1-1;echo 'enabled' > '/sys/bus/usb/devices/1-1/power/wakeup';
+Wake status for USB device usb4;echo 'enabled' > '/sys/bus/usb/devices/usb4/power/wakeup';
+Wake status for USB device usb2;echo 'enabled' > '/sys/bus/usb/devices/usb2/power/wakeup';
+Wake status for USB device 3-13;echo 'enabled' > '/sys/bus/usb/devices/3-13/power/wakeup';
