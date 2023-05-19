@@ -1,6 +1,6 @@
 # A Comprehensive Study of Plot Generation in Chia Blockchain
 
-__**Abstract**__ - Chia plot generation is a crucial aspect of the Chia network, as it determines the storage
+**_Abstract_** - Chia plot generation is a crucial aspect of the Chia network, as it determines the storage
 space required for farming. The process involves creating unique plots that are later used to
 prove the user's allocated space in the network, contributing to the overall security and
 stability of the Chia blockchain. Efficient plot generation is essential for optimizing storage
