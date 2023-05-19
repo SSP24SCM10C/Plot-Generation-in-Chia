@@ -1,5 +1,4 @@
 # A Comprehensive Study of Plot Generation in Chia Blockchain
--------------------------------------------------------------
 
 ## Abstract
 
@@ -18,5 +17,3 @@ Identifying and addressing these challenges is crucial for ensuring the sustaina
 network and fostering greater participation from users across diverse hardware configurations. 
 As the Chia network continues to grow and evolve, understanding the intricacies of plot generation
 will become increasingly important in maintaining the network's efficiency and ecological sustainability
-
--------------------------------------------------------------
